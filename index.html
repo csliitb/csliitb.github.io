@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Centre for Sanskrit Learning | IIT Bombay</title>
+  <meta name="description" content="Centre for Sanskrit Learning at IIT Bombay — promoting research, teaching, and digitization of Sanskrit scientific literature." />
+
+  <!-- Fonts: Noto Serif (headings), Noto Sans (body), Noto Sans Devanagari (Sanskrit) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Noto+Sans+Devanagari:wght@400;600&family=Noto+Sans:wght@400;500;700&family=Noto+Serif:wght@500;700&display=swap"
+    rel="stylesheet"
+  />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Skip link for accessibility -->
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- ============ HEADER / NAV ============ -->
+  <header class="site-header">
+    <nav class="nav container" aria-label="Primary">
+      <a href="#" class="brand">
+        <span class="brand-mark">सं</span>
+        <span class="brand-text">
+          <strong>CSL</strong>
+          <small>IIT Bombay</small>
+        </span>
+      </a>
+
+      <!-- CSS-only mobile menu (checkbox hack, no JS) -->
+      <input type="checkbox" id="nav-toggle" class="nav-toggle" />
+      <label for="nav-toggle" class="nav-toggle-label" aria-hidden="true">
+        <span></span><span></span><span></span>
+      </label>
+
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#courses">Courses</a></li>
+        <li><a href="#events">Events</a></li>
+        <li><a href="#research">Research</a></li>
+        <li><a href="#people">People</a></li>
+        <li><a href="#contact" class="nav-cta">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main">
+
+    <!-- ============ HERO ============ -->
+    <section class="hero">
+      <div class="container hero-inner">
+        <p class="hero-kicker">Indian Institute of Technology Bombay</p>
+        <h1 class="hero-title">Centre for Sanskrit Learning</h1>
+        <p class="hero-sanskrit">संस्कृतम्</p>
+        <p class="hero-lede">
+          Promoting high-quality research in Sanskrit scientific literature and
+          building a technological ecosystem for its preservation, study, and digitization.
+        </p>
+        <div class="hero-actions">
+          <a href="#courses" class="btn btn-primary">Explore Courses</a>
+          <a href="#about" class="btn btn-ghost">Learn More</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ ABOUT ============ -->
+    <section id="about" class="section">
+      <div class="container">
+        <header class="section-head">
+          <span class="section-eyebrow">About</span>
+          <h2>Our Mission</h2>
+        </header>
+
+        <div class="about-grid">
+          <div class="about-copy">
+            <p>
+              The Centre for Sanskrit Learning (CSL) at IIT Bombay is dedicated to
+              advancing the study of Sanskrit — not merely as a classical language,
+              but as a living repository of scientific, philosophical, and literary
+              knowledge.
+            </p>
+            <p>
+              We collaborate with institutions such as <em>Vidyasvam</em> and
+              <em>Kavikulaguru Kalidas Sanskrit University</em> to create a bridge
+              between traditional scholarship and modern computational tools.
+            </p>
+          </div>
+
+          <aside class="about-highlights" aria-label="Highlights">
+            <div class="highlight">
+              <span class="highlight-num">3</span>
+              <span class="highlight-label">Core Programmes</span>
+            </div>
+            <div class="highlight">
+              <span class="highlight-num">10+</span>
+              <span class="highlight-label">Years of Research</span>
+            </div>
+            <div class="highlight">
+              <span class="highlight-num">∞</span>
+              <span class="highlight-label">Manuscripts to Digitize</span>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ COURSES ============ -->
+    <section id="courses" class="section section-alt">
+      <div class="container">
+        <header class="section-head">
+          <span class="section-eyebrow">Programmes</span>
+          <h2>Courses &amp; Learning Tracks</h2>
+          <p class="section-sub">
+            Structured programmes combining traditional pedagogy with modern research methods.
+          </p>
+        </header>
+
+        <div class="cards">
+          <article class="card">
+            <div class="card-tag">Track 01</div>
+            <h3>Adhyayanam <span class="sanskrit-inline">अध्ययनम्</span></h3>
+            <p>
+              A structured study of Sanskrit language and literature, guided by
+              classical texts and traditional commentaries. Offered in collaboration
+              with Vidyasvam.
+            </p>
+            <a href="#contact" class="card-link">Enquire →</a>
+          </article>
+
+          <article class="card">
+            <div class="card-tag">Track 02</div>
+            <h3>Sambhāṣaṇam <span class="sanskrit-inline">सम्भाषणम्</span></h3>
+            <p>
+              Conversational Sanskrit — building fluency through immersive,
+              spoken practice. For details, write to
+              <a href="mailto:csl@iitb.ac.in">csl@iitb.ac.in</a>.
+            </p>
+            <a href="#contact" class="card-link">Enquire →</a>
+          </article>
+
+          <article class="card">
+            <div class="card-tag">Track 03</div>
+            <h3>Sanskrit Vyākaraṇa <span class="sanskrit-inline">व्याकरणम्</span></h3>
+            <p>
+              A deep dive into Pāṇinian grammar — Aṣṭādhyāyī, Siddhāntakaumudī, and
+              the commentarial tradition, with a focus on computational applications.
+            </p>
+            <a href="#contact" class="card-link">Enquire →</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ EVENTS ============ -->
+    <section id="events" class="section">
+      <div class="container">
+        <header class="section-head">
+          <span class="section-eyebrow">Events</span>
+          <h2>Seminars &amp; Gatherings</h2>
+        </header>
+
+        <ul class="event-list">
+          <li class="event">
+            <div class="event-date">
+              <span class="event-month">Jan</span>
+              <span class="event-year">2026</span>
+            </div>
+            <div class="event-body">
+              <h3>Ṛtam 2026 — Sanskrit Mahotsav</h3>
+              <p>
+                The annual Sanskrit Mahotsav celebrating scholarship, performance,
+                and dialogue across disciplines.
+              </p>
+            </div>
+          </li>
+
+          <li class="event">
+            <div class="event-date">
+              <span class="event-month">Mar</span>
+              <span class="event-year">2026</span>
+            </div>
+            <div class="event-body">
+              <h3>Seminar on Garbhavigyan</h3>
+              <p>
+                An interdisciplinary seminar on Sanskrit texts of embryology and
+                their contemporary relevance.
+              </p>
+            </div>
+          </li>
+
+          <li class="event">
+            <div class="event-date">
+              <span class="event-month">Aug</span>
+              <span class="event-year">2026</span>
+            </div>
+            <div class="event-body">
+              <h3>Workshop on Sanskrit Wordnet</h3>
+              <p>
+                Hands-on workshop on using and contributing to the Sanskrit Wordnet
+                lexical resource.
+              </p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============ RESEARCH ============ -->
+    <section id="research" class="section section-alt">
+      <div class="container">
+        <header class="section-head">
+          <span class="section-eyebrow">Research &amp; Resources</span>
+          <h2>Tools &amp; Projects</h2>
+        </header>
+
+        <div class="resource-grid">
+          <article class="resource">
+            <h3>Sanskrit Wordnet</h3>
+            <p>
+              A large lexical database of Sanskrit, developed at IIT Bombay,
+              linking synsets across Hindi, English, and other languages.
+            </p>
+          </article>
+
+          <article class="resource">
+            <h3>Shobhika Font</h3>
+            <p>
+              A Devanagari typeface created under the SandHI initiative at IIT
+              Bombay, designed for scholarship and digital publication.
+            </p>
+          </article>
+
+          <article class="resource">
+            <h3>Digitization Efforts</h3>
+            <p>
+              Ongoing work on digitizing manuscripts and scientific literature
+              in Sanskrit, with structured metadata and search support.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ PEOPLE ============ -->
+    <section id="people" class="section">
+      <div class="container">
+        <header class="section-head">
+          <span class="section-eyebrow">People</span>
+          <h2>Faculty &amp; Researchers</h2>
+        </header>
+
+        <div class="people-grid">
+          <article class="person">
+            <div class="person-avatar" aria-hidden="true">MK</div>
+            <h3>Prof. Malhar Kulkarni</h3>
+            <p class="person-role">Faculty, Dept. of Humanities &amp; Social Sciences</p>
+            <p class="person-note">Pāṇinian grammar · Sanskrit computational linguistics</p>
+          </article>
+
+          <article class="person">
+            <div class="person-avatar" aria-hidden="true">CSL</div>
+            <h3>CSL Research Team</h3>
+            <p class="person-role">Postdoctoral &amp; doctoral researchers</p>
+            <p class="person-note">Lexicography · Manuscript digitization · Pedagogy</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section id="contact" class="section section-contact">
+      <div class="container contact-inner">
+        <div>
+          <span class="section-eyebrow">Contact</span>
+          <h2>Get in Touch</h2>
+          <p>
+            For admissions, collaborations, or general enquiries, write to us.
+          </p>
+        </div>
+
+        <ul class="contact-list">
+          <li>
+            <span class="contact-label">Email</span>
+            <a href="mailto:csl@iitb.ac.in">csl@iitb.ac.in</a>
+          </li>
+          <li>
+            <span class="contact-label">Address</span>
+            <span>IIT Bombay, Powai, Mumbai — 400076</span>
+          </li>
+          <li>
+            <span class="contact-label">Website</span>
+            <a href="https://www.iitb.ac.in" target="_blank" rel="noopener">iitb.ac.in</a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year">2026</span> Centre for Sanskrit Learning, IIT Bombay.</p>
+      <p class="footer-quote">॥ सर्वे भवन्तु सुखिनः ॥</p>
+    </div>
+  </footer>
+
+</body>
+</html>
